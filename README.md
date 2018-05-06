@@ -1,1 +1,3 @@
 # fundamentals.ai
+
+love bufan
