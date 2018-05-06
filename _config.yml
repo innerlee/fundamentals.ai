@@ -1,1 +1,5 @@
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
+# https://tianqi.name/jekyll-TeXt-theme/
+# https://iwiedenm.github.io/jekyll-theme-massively/
+# https://sylhare.github.io/Type-on-Strap/
+remote_theme: iwiedenm/jekyll-theme-massively-src
