@@ -1,11 +1,5 @@
-# theme: jekyll-theme-minimal
-# https://tianqi.name/jekyll-TeXt-theme/
-# https://iwiedenm.github.io/jekyll-theme-massively/
-# https://sylhare.github.io/Type-on-Strap/
-remote_theme: iwiedenm/jekyll-theme-massively-src
-
 # Site
-title:              Lizz
+title:              Massively
 bio:                'Jekyll version of the Massively theme by HTML5UP'
 description:        "Jekyll version of the Massively theme by HTML5UP"
 locale:             en_US
@@ -47,7 +41,7 @@ instagram:          default
 github:             default
 
 # personal
-location:           HK
+location:           Los Angeles, CA
 phone:              310-318-5555
 email:              info@default.com
 
