@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Fundamentals - About Life
+layout: life
+title: Fundamentals - Life
 description: Life is sailing a boat on an ocean.
 sitemap:
     priority: 0.7

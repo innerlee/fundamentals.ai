@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: ai
 title: Fundamentals - AI
 description: Tell it to act.
 sitemap:

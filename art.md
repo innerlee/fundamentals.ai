@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: art
 title: Fundamentals - Art
 description: Put your heart on this soft bench gently.
 sitemap:

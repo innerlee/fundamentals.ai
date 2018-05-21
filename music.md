@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: music
 title: Fundamentals - Music
 description: It is music who delivers my feeling.
 sitemap:
