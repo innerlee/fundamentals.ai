@@ -1,3 +1,3 @@
 # fundamentals
 
-love bufan
+The fundamentals of life.

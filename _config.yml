@@ -1,7 +1,7 @@
 # Site
 title:              Fundamentals
 bio:                'Fundamentals of AI and Math.'
-description:        "Fundamentals of AI and Math."
+description:        "Zhizhong LI's personal site"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -35,15 +35,15 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+# twitter:            default
+# facebook:           default
+# instagram:          default
+github:             innerlee
 
 # personal
-location:           HK
-phone:              1111111
-email:              info@default.com
+location:           The Chinese University of Hong Kong
+# phone:              1111111
+email:              lizhizhong@outlook.com
 
 # Gems
 gems:
