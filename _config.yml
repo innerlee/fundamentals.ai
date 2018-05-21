@@ -16,22 +16,22 @@ defaults:
     author:
 
 collections:
-  - ai:
+  ai:
     output: true
     permalink: /:collection/:title
-  - art:
+  art:
     output: true
     permalink: /:collection/:title
-  - life:
+  life:
     output: true
     permalink: /:collection/:title
-  - math:
+  math:
     output: true
     permalink: /:collection/:title
-  - music:
+  music:
     output: true
     permalink: /:collection/:title
-  - sport:
+  sport:
     output: true
     permalink: /:collection/:title
 
