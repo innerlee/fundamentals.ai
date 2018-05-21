@@ -5,7 +5,3 @@ date:   2018-05-21
 excerpt: "In the name of love."
 image: "/images/sport.png"
 ---
-
-# Hello Sport
-
-In the name of love.
