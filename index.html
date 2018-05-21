@@ -34,7 +34,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- Intro -->
         <div id="intro">
             <h1>{{site.title}}</h1>
-            <h2>Math, Music, Sport, and AI</h2>
+            <h2>Math, Music, Sport, Art and AI</h2>
             <p>Life is a boat on an ocean
                 <br /> Let's sail together</p>
             <ul class="actions">
@@ -99,7 +99,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <!-- Posts -->
             <section class="posts">
-                {% for post in site.posts limit:3 %} {% assign mod3 = forloop.index | modulo: 3 %}
+                {% for post in site.ai limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
                 <article>
                     <header>
                         <span class="date">{{ post.date | date_to_string }}</span>
@@ -117,17 +117,102 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </li>
                     </ul>
                 </article>
-                <!-- {% if mod3 == 0 %}
+                {% endfor %}
+                {% for post in site.art limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
                 <article>
                     <header>
+                        <span class="date">{{ post.date | date_to_string }}</span>
                         <h2>
-                            <a href="#">Sponsored</a>
+                            <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
                         </h2>
                     </header>
-
+                    <a href="{{ post.url | absolute_url }}" class="image fit">
+                        <img src="{{ post.image | absolute_url }}" alt="" />
+                    </a>
+                    <p>{{ post.excerpt }}</p>
+                    <ul class="actions">
+                        <li>
+                            <a href="{{ post.url | absolute_url }}" class="button">Full Story</a>
+                        </li>
+                    </ul>
                 </article>
-                {% endif %} {% endfor %} -->
-
+                {% endfor %}
+                {% for post in site.life limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
+                <article>
+                    <header>
+                        <span class="date">{{ post.date | date_to_string }}</span>
+                        <h2>
+                            <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+                        </h2>
+                    </header>
+                    <a href="{{ post.url | absolute_url }}" class="image fit">
+                        <img src="{{ post.image | absolute_url }}" alt="" />
+                    </a>
+                    <p>{{ post.excerpt }}</p>
+                    <ul class="actions">
+                        <li>
+                            <a href="{{ post.url | absolute_url }}" class="button">Full Story</a>
+                        </li>
+                    </ul>
+                </article>
+                {% endfor %}
+                {% for post in site.math limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
+                <article>
+                    <header>
+                        <span class="date">{{ post.date | date_to_string }}</span>
+                        <h2>
+                            <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+                        </h2>
+                    </header>
+                    <a href="{{ post.url | absolute_url }}" class="image fit">
+                        <img src="{{ post.image | absolute_url }}" alt="" />
+                    </a>
+                    <p>{{ post.excerpt }}</p>
+                    <ul class="actions">
+                        <li>
+                            <a href="{{ post.url | absolute_url }}" class="button">Full Story</a>
+                        </li>
+                    </ul>
+                </article>
+                {% endfor %}
+                {% for post in site.music limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
+                <article>
+                    <header>
+                        <span class="date">{{ post.date | date_to_string }}</span>
+                        <h2>
+                            <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+                        </h2>
+                    </header>
+                    <a href="{{ post.url | absolute_url }}" class="image fit">
+                        <img src="{{ post.image | absolute_url }}" alt="" />
+                    </a>
+                    <p>{{ post.excerpt }}</p>
+                    <ul class="actions">
+                        <li>
+                            <a href="{{ post.url | absolute_url }}" class="button">Full Story</a>
+                        </li>
+                    </ul>
+                </article>
+                {% endfor %}
+                {% for post in site.sport limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
+                <article>
+                    <header>
+                        <span class="date">{{ post.date | date_to_string }}</span>
+                        <h2>
+                            <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+                        </h2>
+                    </header>
+                    <a href="{{ post.url | absolute_url }}" class="image fit">
+                        <img src="{{ post.image | absolute_url }}" alt="" />
+                    </a>
+                    <p>{{ post.excerpt }}</p>
+                    <ul class="actions">
+                        <li>
+                            <a href="{{ post.url | absolute_url }}" class="button">Full Story</a>
+                        </li>
+                    </ul>
+                </article>
+                {% endfor %}
             </section>
 
             <!-- Footer -->
