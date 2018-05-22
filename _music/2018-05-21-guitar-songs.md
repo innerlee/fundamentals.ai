@@ -107,11 +107,12 @@ image: "/images/repertoire.png"
                 <td>Agustine Barrios</td>
                 <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
             </tr>
+            <tr>
                 <td><a href="https://www.youtube.com/watch?v=1cpH9yY8SOw">Danza del Molinero</a></td>
                 <td>Manuel de Falla</td>
                 <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
             </tr>
-            </tr>
+            <tr>
                 <td><a href="https://www.youtube.com/watch?v=V1zPDqM5-6Q">Confesión</a></td>
                 <td>Manuel de Falla</td>
                 <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
