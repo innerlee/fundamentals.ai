@@ -115,7 +115,7 @@ image: "/images/repertoire.png"
             <tr>
                 <td><a href="https://www.youtube.com/watch?v=V1zPDqM5-6Q">Confesión</a></td>
                 <td>Agustine Barrios</td>
-                <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+                <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
             </tr>
         </tbody>
         <tfoot>
