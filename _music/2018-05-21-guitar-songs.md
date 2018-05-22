@@ -18,7 +18,7 @@ image: "/images/repertoire.png"
         </thead>
         <tbody>
             <tr>
-                <td><a href="https://www.youtube.com/watch?v=LLtBJcaY1kw">La Paloma</a></td>
+                <td><a href="https://youtu.be/LLtBJcaY1kw?t=29s">La Paloma</a></td>
                 <td>Tárrega/Yradier</td>
                 <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
             </tr>
@@ -38,12 +38,12 @@ image: "/images/repertoire.png"
                 <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
             </tr>
             <tr>
-                <td>Cavatina</td>
+                <td><a href="https://www.youtube.com/watch?v=PSkV5nLZ8xg">Cavatina</a></td>
                 <td>Stanley Myers</td>
                 <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
             </tr>
             <tr>
-                <td>Home</td>
+                <td><a href="https://www.youtube.com/watch?v=6ajTcwJBbw4">Home</a></td>
                 <td>Andrew York</td>
                 <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
             </tr>
@@ -58,7 +58,7 @@ image: "/images/repertoire.png"
                 <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
             </tr>
             <tr>
-                <td><a href="https://www.youtube.com/watch?v=8p2UvOu9a8E">Cancion de Cuna - Berceuse</a></td>
+                <td><a href="https://www.youtube.com/watch?v=8p2UvOu9a8E">Cancion de Cuna (Berceuse)</a></td>
                 <td>Leo Brouwer</td>
                 <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
             </tr>
@@ -66,6 +66,55 @@ image: "/images/repertoire.png"
                 <td><a href="https://www.youtube.com/watch?v=r21WDZ4-eUI">Etude 11</a></td>
                 <td>Villa Lobos</td>
                 <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.youtube.com/watch?v=WDTBNRhEItw">Northern Lights</a></td>
+                <td>Jan Depreter</td>
+                <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.youtube.com/watch?v=hzzBXaoTEI0">The Isle of Skye</a></td>
+                <td>Jan Depreter</td>
+                <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.youtube.com/watch?v=d8ZzO92RAo4">Invocacion y Danza</a></td>
+                <td>Joaquin Rodrigo</td>
+                <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.youtube.com/watch?v=8TBsOyvR9dg">Sor Mozart Variations</a></td>
+                <td>Sor/Mozart</td>
+                <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td><a href="https://youtu.be/R2sE5a9D78s?t=27s">Sunburst (Jubilation)</a></td>
+                <td>Andrew York</td>
+                <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.youtube.com/watch?v=JzHie6T9v9c">The Entertainer</a></td>
+                <td>Scott Joplin</td>
+                <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.youtube.com/watch?v=0uQw6DfhbGE">Julia Florida (Barcarola)</a></td>
+                <td>Agustine Barrios</td>
+                <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td><a href="https://youtu.be/ric1cpPsBcM">Preludio en do menor</a></td>
+                <td>Agustine Barrios</td>
+                <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+            </tr>
+                <td><a href="https://www.youtube.com/watch?v=1cpH9yY8SOw">Danza del Molinero</a></td>
+                <td>Manuel de Falla</td>
+                <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+            </tr>
+            </tr>
+                <td><a href="https://www.youtube.com/watch?v=V1zPDqM5-6Q">Confesión</a></td>
+                <td>Manuel de Falla</td>
+                <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
             </tr>
         </tbody>
         <tfoot>
