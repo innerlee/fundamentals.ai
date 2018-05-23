@@ -124,7 +124,7 @@ image: "/images/repertoire.png"
                 <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
             </tr>
             <tr>
-                <td><a href="https://www.youtube.com/watch?v=5Tj9T9BFaJc">Lamento en Si mineur</a></td>
+                <td><a href="https://www.youtube.com/watch?v=5Tj9T9BFaJc">Prelude BWV846</a></td>
                 <td>Bach</td>
                 <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
             </tr>
