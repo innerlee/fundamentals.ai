@@ -7,6 +7,7 @@ image: "/images/repertoire.png"
 ---
 
 <h3>Play List</h3>
+<a href=""><i class="fa fa-youtube" aria-hidden="true"></i>YouTube</a>
 <div class="table-wrapper">
     <table>
         <thead>
@@ -116,6 +117,21 @@ image: "/images/repertoire.png"
                 <td><a href="https://www.youtube.com/watch?v=V1zPDqM5-6Q">Confesión</a></td>
                 <td>Agustine Barrios</td>
                 <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.youtube.com/watch?v=QODC7m5RcVE">Lamento en Si mineur</a></td>
+                <td>Francis Kleynjans</td>
+                <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.youtube.com/watch?v=5Tj9T9BFaJc">Lamento en Si mineur</a></td>
+                <td>Bach</td>
+                <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.youtube.com/watch?v=ZjcN-tmNvp0">Estudio No.1</a></td>
+                <td>Villa Lobos</td>
+                <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
             </tr>
         </tbody>
         <tfoot>
