@@ -7,7 +7,7 @@ image: "/images/repertoire.png"
 ---
 
 <h3>Play List</h3>
-<a href=""><i class="fa fa-youtube" aria-hidden="true"></i>YouTube</a>
+<a href="https://www.youtube.com/watch?v=LLtBJcaY1kw&list=PLRcN0BIIzl_mo0MBl40qmyldyID83akkg"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 <div class="table-wrapper">
     <table>
         <thead>
