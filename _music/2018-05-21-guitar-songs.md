@@ -6,8 +6,8 @@ excerpt: "弱水三千，取一瓢饮 --- So many music to play, my heart goes t
 image: "/images/repertoire.png"
 ---
 
-<h3>Play List</h3>
-<a href="https://www.youtube.com/watch?v=LLtBJcaY1kw&list=PLRcN0BIIzl_mo0MBl40qmyldyID83akkg"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+<h3>Play List <a href="https://www.youtube.com/watch?v=LLtBJcaY1kw&list=PLRcN0BIIzl_mo0MBl40qmyldyID83akkg"><i class="fa fa-youtube" aria-hidden="true"></i></a></h3>
+
 <div class="table-wrapper">
     <table>
         <thead>
