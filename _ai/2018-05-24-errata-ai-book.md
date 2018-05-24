@@ -10,7 +10,7 @@ image: "/images/textbook.jpg"
     如果您发现错误或者有改进建议，请发送至邮件 <a href="mailto:fundamentals.ai@outlook.com">fundamentals.ai@outlook.com</a>，多谢支持！
     </p>
 </div>
-$x$
+
 <h3>错误列表</h3>
 <div class="table-wrapper">
     <table>
