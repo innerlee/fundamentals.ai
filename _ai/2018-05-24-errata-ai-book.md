@@ -7,7 +7,7 @@ image: "/images/textbook.jpg"
 ---
 <div class="box">
     <p>
-    如果您发现错误或者有改进建议，请发送至邮件 <a href="mailto:fundamentals.ai@outlook.com">fundamentals.ai@outlook.com</a>，多谢支持！
+    如果您发现错误或者有改进建议，请发送至邮件 <a href="mailto:fundamentals.ai@outlook.com">fundamentals.ai@outlook.com</a>，多谢您的支持！
     </p>
 </div>
 
@@ -39,15 +39,15 @@ image: "/images/textbook.jpg"
                 <td>zz</td>
             </tr>
             <tr>
-                <td>...的参数。最大化\\(2\gamma\\)等价于...</td>
-                <td>...的参数。当\\(\gamma>0\\)时，最大化\\(2\gamma\\)等价于...</td>
+                <td>...的参数。最大化 $2\gamma$ 等价于...</td>
+                <td>...的参数。当 $\gamma>0$ 时，最大化 $2\gamma$ 等价于...</td>
                 <td>第34页</td>
                 <td>技术错误</td>
                 <td>Chaorui Yao</td>
             </tr>
             <tr>
-                <td>同时满足对每一个\\(i\\)，\\(y^{(i)}\times \frac{a_1x_1^{(i)}+a_2x_2^{(i)}+b}{\sqrt{a_1^2+a_2^2}}\ge \gamma\\)</td>
-                <td>同时满足对每一个\\(i\\)，\\(y^{(i)}\times \frac{a_1x_1^{(i)}+a_2x_2^{(i)}+b}{\sqrt{a_1^2+a_2^2}}\ge \gamma>0\\)</td>
+                <td>同时满足对每一个 $i$ ，$y^{(i)}\times \frac{a_1x_1^{(i)}+a_2x_2^{(i)}+b}{\sqrt{a_1^2+a_2^2}}\ge \gamma$</td>
+                <td>同时满足对每一个 $i$ ，$y^{(i)}\times \frac{a_1x_1^{(i)}+a_2x_2^{(i)}+b}{\sqrt{a_1^2+a_2^2}}\ge \gamma>0$</td>
                 <td>第34页</td>
                 <td>技术错误</td>
                 <td>Chaorui Yao</td>
