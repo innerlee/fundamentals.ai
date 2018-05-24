@@ -11,7 +11,7 @@ image: "/images/textbook.jpg"
     </p>
 </div>
 
-<h3>错误</h3>
+<h3>错误列表</h3>
 <div class="table-wrapper">
     <table>
         <thead>
@@ -43,14 +43,14 @@ image: "/images/textbook.jpg"
                 <td>...的参数。当\\(\gamma>0\\)时，最大化\\(2\gamma\\)等价于...</td>
                 <td>第34页</td>
                 <td>技术错误</td>
-                <td>ycr</td>
+                <td>Chaorui Yao</td>
             </tr>
             <tr>
                 <td>同时满足对每一个\\(i\\)，\\(y^{(i)}\times \frac{a_1x_1^{(i)}+a_2x_2^{(i)}+b}{\sqrt{a_1^2+a_2^2}}\ge \gamma\\)</td>
                 <td>同时满足对每一个\\(i\\)，\\(y^{(i)}\times \frac{a_1x_1^{(i)}+a_2x_2^{(i)}+b}{\sqrt{a_1^2+a_2^2}}\ge \gamma>0\\)</td>
                 <td>第34页</td>
                 <td>技术错误</td>
-                <td>ycr</td>
+                <td>Chaorui Yao</td>
             </tr>
         </tbody>
         <tfoot>
@@ -62,7 +62,7 @@ image: "/images/textbook.jpg"
     </table>
 </div>
 
-<h3>改进</h3>
+<h3>改进列表</h3>
 <div class="table-wrapper">
     <table>
         <thead>
@@ -100,6 +100,20 @@ image: "/images/textbook.jpg"
                 <td>...表示最小化后面表达式...</td>
                 <td>删去“后面”</td>
                 <td>第34页</td>
+                <td>措词</td>
+                <td>zz</td>
+            </tr>
+            <tr>
+                <td>三阶张量的高度也称为通道...</td>
+                <td>高度->厚度</td>
+                <td>第46页</td>
+                <td>措词</td>
+                <td>zz</td>
+            </tr>
+            <tr>
+                <td>矩阵</td>
+                <td>高度->厚度</td>
+                <td>第46页</td>
                 <td>措词</td>
                 <td>zz</td>
             </tr>
