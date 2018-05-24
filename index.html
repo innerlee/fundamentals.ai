@@ -99,7 +99,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <!-- Posts -->
             <section class="posts">
-                {% for post in site.ai limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
+                {% for post in site.ai reversed limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
                 <article>
                     <header>
                         <span class="date">{{ post.date | date_to_string }}</span>
@@ -118,7 +118,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </ul>
                 </article>
                 {% endfor %}
-                {% for post in site.art limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
+                {% for post in site.art reversed limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
                 <article>
                     <header>
                         <span class="date">{{ post.date | date_to_string }}</span>
@@ -137,7 +137,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </ul>
                 </article>
                 {% endfor %}
-                {% for post in site.life limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
+                {% for post in site.life reversed limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
                 <article>
                     <header>
                         <span class="date">{{ post.date | date_to_string }}</span>
@@ -156,7 +156,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </ul>
                 </article>
                 {% endfor %}
-                {% for post in site.math limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
+                {% for post in site.math reversed limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
                 <article>
                     <header>
                         <span class="date">{{ post.date | date_to_string }}</span>
@@ -175,7 +175,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </ul>
                 </article>
                 {% endfor %}
-                {% for post in site.music limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
+                {% for post in site.music reversed limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
                 <article>
                     <header>
                         <span class="date">{{ post.date | date_to_string }}</span>
@@ -194,7 +194,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </ul>
                 </article>
                 {% endfor %}
-                {% for post in site.sport limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
+                {% for post in site.sport reversed limit:1 %} {% assign mod3 = forloop.index | modulo: 3 %}
                 <article>
                     <header>
                         <span class="date">{{ post.date | date_to_string }}</span>
