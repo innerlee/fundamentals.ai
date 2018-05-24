@@ -20,5 +20,5 @@ Suppose there is an glorious castle of music, then I am a knight on a horse, wan
 What is the view inside the castle? How is the temple look like?
 Rumors are heard, rules are observed, and masters are recognized.
 Still, the essence, I cannot grasp.
-Here record my quest to the heart of music.
+Here records my quest to the heart of music.
 <p>
