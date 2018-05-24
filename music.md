@@ -13,7 +13,7 @@ sitemap:
 </h2>
 <p>
 For music, I've always being an <em>outsider</em>.
-Suppose there is an glorious castle of music, then I am a knight on a horse, wandering around the rocky castle, seeking any crackle on the wall, so that I could reach the temple.
+Suppose there is an glorious castle of music, then I am a knight on a horse, wandering around the rocky castle, seeking any crackle on the wall, so that I could reach the holy temple.
 </p>
 </header>
 <p>
