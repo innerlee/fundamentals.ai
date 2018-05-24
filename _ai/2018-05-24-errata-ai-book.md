@@ -21,22 +21,25 @@ image: "/images/textbook.jpg"
                 <th>位置</th>
                 <th>类型</th>
                 <th>汇报者</th>
+                <th>日期</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Image Net</td>
                 <td>ImageNet</td>
-                <td>第9页</td>
+                <td>第9、52、53、54页</td>
                 <td>专有名词</td>
                 <td>zz</td>
+                <td>2018/04/28</td>
             </tr>
             <tr>
                 <td>Alex Net</td>
                 <td>AlexNet</td>
-                <td>第9页</td>
+                <td>第9、62页</td>
                 <td>专有名词</td>
                 <td>zz</td>
+                <td>2018/04/28</td>
             </tr>
             <tr>
                 <td>...的参数。最大化 $2\gamma$ 等价于...</td>
@@ -44,6 +47,7 @@ image: "/images/textbook.jpg"
                 <td>第34页</td>
                 <td>技术错误</td>
                 <td>Chaorui Yao</td>
+                <td>2018/05/07</td>
             </tr>
             <tr>
                 <td>同时满足对每一个 $i$ ，$y^{(i)}\times \frac{a_1x_1^{(i)}+a_2x_2^{(i)}+b}{\sqrt{a_1^2+a_2^2}}\ge \gamma$</td>
@@ -51,6 +55,31 @@ image: "/images/textbook.jpg"
                 <td>第34页</td>
                 <td>技术错误</td>
                 <td>Chaorui Yao</td>
+                <td>2018/05/07</td>
+            </tr>
+            <tr>
+                <td>...神经元（nearon）...</td>
+                <td>nearon -> neuron</td>
+                <td>第59页</td>
+                <td>专有名词</td>
+                <td>zz</td>
+                <td>2018/04/28</td>
+            </tr>
+            <tr>
+                <td>$[T]=\cdots$</td>
+                <td>$[T]$ -> $\mathbf{T}$</td>
+                <td>第130页</td>
+                <td>格式</td>
+                <td>zz</td>
+                <td>2018/04/28</td>
+            </tr>
+            <tr>
+                <td>...均匀分布在区间 $[3,5]$ 中。</td>
+                <td>$[3,5]$ -> $[2,5]$</td>
+                <td>第130页</td>
+                <td>格式</td>
+                <td>Dan Zhou</td>
+                <td>2018/05/07</td>
             </tr>
         </tbody>
         <tfoot>
@@ -72,6 +101,7 @@ image: "/images/textbook.jpg"
                 <th>位置</th>
                 <th>类型</th>
                 <th>提供者</th>
+                <th>日期</th>
             </tr>
         </thead>
         <tbody>
@@ -81,6 +111,7 @@ image: "/images/textbook.jpg"
                 <td>《致同学》第1页</td>
                 <td>措词</td>
                 <td>zz</td>
+                <td>2018/04/28</td>
             </tr>
             <tr>
                 <td>...重要基石，为纪念...</td>
@@ -88,6 +119,7 @@ image: "/images/textbook.jpg"
                 <td>《致同学》第1页</td>
                 <td>标点</td>
                 <td>zz</td>
+                <td>2018/04/28</td>
             </tr>
             <tr>
                 <td>在数学上，向量就是...</td>
@@ -95,6 +127,7 @@ image: "/images/textbook.jpg"
                 <td>第23页</td>
                 <td>措词</td>
                 <td>知乎网友</td>
+                <td>2018/05/05</td>
             </tr>
             <tr>
                 <td>...表示最小化后面表达式...</td>
@@ -102,6 +135,15 @@ image: "/images/textbook.jpg"
                 <td>第34页</td>
                 <td>措词</td>
                 <td>zz</td>
+                <td>2018/04/28</td>
+            </tr>
+            <tr>
+                <td>我们的目的是......就可以求解了。</td>
+                <td>整个部分属于扩展阅读</td>
+                <td>第34─35页</td>
+                <td>格式</td>
+                <td>zz</td>
+                <td>2018/04/28</td>
             </tr>
             <tr>
                 <td>三阶张量的高度也称为通道...</td>
@@ -109,6 +151,7 @@ image: "/images/textbook.jpg"
                 <td>第46页</td>
                 <td>措词</td>
                 <td>zz</td>
+                <td>2018/04/28</td>
             </tr>
             <tr>
                 <td>矩阵可以看作是高度为 $1$ 的三阶张量，因此灰度图像只有一个通道。</td>
@@ -116,6 +159,39 @@ image: "/images/textbook.jpg"
                 <td>第46页</td>
                 <td>措词</td>
                 <td>zz</td>
+                <td>2018/04/28</td>
+            </tr>
+            <tr>
+                <td>...组成的时空体（<i>space-time volume</i>）。</td>
+                <td>space-time volume 不要斜体</td>
+                <td>第95页</td>
+                <td>格式</td>
+                <td>zz</td>
+                <td>2018/04/28</td>
+            </tr>
+            <tr>
+                <td>...从光流到密集轨迹</td>
+                <td>删去“密集”</td>
+                <td>第97页</td>
+                <td>叙述</td>
+                <td>zz</td>
+                <td>2018/04/28</td>
+            </tr>
+            <tr>
+                <td>如图 5-12 所示，......特征点 $P$ 的运动过程。</td>
+                <td>整个部分属于扩展阅读</td>
+                <td>第97页</td>
+                <td>格式</td>
+                <td>zz</td>
+                <td>2018/04/28</td>
+            </tr>
+            <tr>
+                <td>弗吉尼亚鸢尾（<i>Virginia iris</i>）</td>
+                <td><i>Virginia iris</i> -> <i>Iris virginica</i></td>
+                <td>第110页</td>
+                <td>一致性</td>
+                <td>zz</td>
+                <td>2018/04/28</td>
             </tr>
         </tbody>
         <tfoot>
