@@ -1,10 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-  Jekyll integration by somiibo.com
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 <head>
@@ -12,17 +6,18 @@
 </head>
 
 <body class="is-loading">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6KVCL8"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>
+		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6KVCL8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
+	<!-- End Google Tag Manager (noscript) -->
 
 	<!-- Wrapper -->
 	<div id="wrapper" class="fade-in">
 
 		<!-- Header -->
 		<header id="header">
-			<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+			<a href="{{ " / " | absolute_url }}" class="logo">{{site.title}}</a>
 		</header>
 
 		<!-- Nav -->
@@ -31,9 +26,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			{% include nav.html %}
 
 			<ul class="icons">
-				<!-- <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
-              	<li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
-              	<li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li> -->
 				<li>
 					<a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow">
 						<span class="label">GitHub</span>
@@ -50,7 +42,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</article>
 			<!-- Post -->
 			<section class="posts">
-				{% for post in site.sport %} {% assign mod3 = forloop.index | modulo: 3 %}
+				{% for post in site.sport reversed %} {% assign mod3 = forloop.index | modulo: 3 %}
 				<article>
 					<header>
 						<span class="date">{{ post.date | date_to_string }}</span>
