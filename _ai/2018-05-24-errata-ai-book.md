@@ -111,8 +111,8 @@ image: "/images/textbook.jpg"
                 <td>zz</td>
             </tr>
             <tr>
-                <td>矩阵</td>
-                <td>高度->厚度</td>
+                <td>矩阵可以看作是高度为 $1$ 的三阶张量，因此灰度图像只有一个通道。</td>
+                <td>相较之下，灰度图像只有一个通道。</td>
                 <td>第46页</td>
                 <td>措词</td>
                 <td>zz</td>
