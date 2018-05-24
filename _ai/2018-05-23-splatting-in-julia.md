@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Splatting in Julia"
-date:   2018-05-24
+date:   2018-05-23
 excerpt: "Splatting is handy, splatting is slow."
 image: "/images/julialang.svg"
 ---
