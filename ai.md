@@ -12,7 +12,7 @@ sitemap:
     <a href="#">On Artificial Intelligence</a>
 </h2>
 <p>
-AI is a too broad a concept: everyone has his or her own definition.
+AI is too broad a concept: everyone has his or her own definition.
 A modest view is to approach intellegence via learning, <emph>i.e.,</emph> the practice of machine learning.
 </p>
 </header>
