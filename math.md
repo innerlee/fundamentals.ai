@@ -9,10 +9,11 @@ sitemap:
 ---
 <header class="major">
     <h2>
-        <a href="#">Concepts in Math</a>
+        <a href="#">On Math</a>
     </h2>
     <p>
-    If there are any important concept in mathematics, then <emph>symmetry</emph> is one of them.
+    If there is one important concept in mathematics, then it is symmetry.
+    If there are two important objects in mathematics, then they are polynomial and matrix.
     </p>
 </header>
 <p>
@@ -23,4 +24,6 @@ sitemap:
         <li>Gromov-Witten invariant</li>
         <li>Mirror symmetry</li>
     </ul>
+    When to kill those?
+    That is a great question...
 </p>
