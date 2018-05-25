@@ -67,7 +67,7 @@ image: "/images/textbook.jpg"
             </tr>
             <tr>
                 <td>$[T]=\cdots$</td>
-                <td>$[T]$ -> $\mathbf{T}$</td>
+                <td>$[T]$ -> $\boldsymbol{T}$</td>
                 <td>第130页</td>
                 <td>格式</td>
                 <td>zz</td>
