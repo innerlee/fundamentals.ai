@@ -77,7 +77,7 @@ image: "/images/textbook.jpg"
                 <td>...均匀分布在区间 $[3,5]$ 中。</td>
                 <td>$[3,5]$ -> $[2,5]$</td>
                 <td>第130页</td>
-                <td>格式</td>
+                <td>排印错误</td>
                 <td>Dan Zhou</td>
                 <td>2018/05/07</td>
             </tr>
