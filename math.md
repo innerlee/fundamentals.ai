@@ -4,7 +4,7 @@ title: Fundamentals - Math
 description: Math is about discipline. Every thing is precise, affirmative, and crystal pure.
 sitemap:
     priority: 1.0
-    lastmod: 2018-05-21
+    lastmod: 2018-05-25
     changefreq: weekly
 ---
 <header class="major">
