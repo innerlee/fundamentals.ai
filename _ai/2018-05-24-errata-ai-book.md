@@ -7,7 +7,7 @@ image: "/images/textbook.jpg"
 ---
 <div class="box">
     <p>
-    如果您发现错误或者有改进建议，请发送邮件至 <a href="mailto:fundamentals.ai@outlook.com">fundamentals.ai@outlook.com</a>，多谢您的支持！
+    如果您发现错误或者有改进建议，请发送邮件至 <a href="mailto:fundamental.ai@outlook.com">fundamentals.ai@outlook.com</a>，多谢您的支持！
     </p>
 </div>
 
