@@ -81,6 +81,14 @@ image: "/images/textbook.jpg"
                 <td>Dan Zhou</td>
                 <td>2018/05/07</td>
             </tr>
+            <tr>
+                <td>$d= w_1 t_1 + w_2 t_2 + \dots + w_V t_V$  (7-1)</td>
+                <td>$\dots + w_V t_V$ -> $\dots + w_T t_T$ </td>
+                <td>第130页</td>
+                <td>排印错误</td>
+                <td>Pan Huang</td>
+                <td>2018/06/04</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
