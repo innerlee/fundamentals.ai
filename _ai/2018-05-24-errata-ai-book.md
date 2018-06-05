@@ -46,7 +46,7 @@ image: "/images/textbook.jpg"
                 <td>...的参数。当 $\gamma>0$ 时，最大化 $2\gamma$ 等价于...</td>
                 <td>第34页</td>
                 <td>技术错误</td>
-                <td>Chaorui Yao</td>
+                <td>姚超睿</td>
                 <td>2018/05/07</td>
             </tr>
             <tr>
@@ -54,7 +54,7 @@ image: "/images/textbook.jpg"
                 <td>同时满足对每一个 $i$ ，$y^{(i)}\times \frac{a_1x_1^{(i)}+a_2x_2^{(i)}+b}{\sqrt{a_1^2+a_2^2}}\ge \gamma>0$</td>
                 <td>第34页</td>
                 <td>技术错误</td>
-                <td>Chaorui Yao</td>
+                <td>姚超睿</td>
                 <td>2018/05/07</td>
             </tr>
             <tr>
@@ -78,7 +78,7 @@ image: "/images/textbook.jpg"
                 <td>$[3,5]$ -> $[2,5]$</td>
                 <td>第130页</td>
                 <td>排印错误</td>
-                <td>Dan Zhou</td>
+                <td>周丹</td>
                 <td>2018/05/07</td>
             </tr>
             <tr>
@@ -86,7 +86,15 @@ image: "/images/textbook.jpg"
                 <td>$\dots + w_V t_V$ -> $\dots + w_T t_T$ </td>
                 <td>第130页</td>
                 <td>排印错误</td>
-                <td>Pan Huang</td>
+                <td>黄攀</td>
+                <td>2018/06/04</td>
+            </tr>
+            <tr>
+                <td>$\tanh(x) = \frac{e^x - e^{-x}}{e^{-x} + e^{-x}}$</td>
+                <td>$\tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$</td>
+                <td>第57页</td>
+                <td>排印错误</td>
+                <td>朋错</td>
                 <td>2018/06/04</td>
             </tr>
         </tbody>
