@@ -95,7 +95,7 @@ image: "/images/textbook.jpg"
                 <td>第57页</td>
                 <td>排印错误</td>
                 <td>朋错</td>
-                <td>2018/06/04</td>
+                <td>2018/06/05</td>
             </tr>
         </tbody>
         <tfoot>
