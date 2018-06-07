@@ -97,6 +97,14 @@ image: "/images/textbook.jpg"
                 <td>朋错</td>
                 <td>2018/06/05</td>
             </tr>
+            <tr>
+                <td>Deep Mind</td>
+                <td>DeepMind</td>
+                <td>第154页</td>
+                <td>专有名词</td>
+                <td><emph>量子位</emph> 编辑</td>
+                <td>2018/06/07</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
