@@ -102,7 +102,7 @@ image: "/images/textbook.jpg"
                 <td>DeepMind</td>
                 <td>第154页</td>
                 <td>专有名词</td>
-                <td><i>量子位</i>编辑</td>
+                <td><i>《量子位》</i>编辑</td>
                 <td>2018/06/07</td>
             </tr>
         </tbody>
