@@ -105,6 +105,14 @@ image: "/images/textbook.jpg"
                 <td><i>《量子位》</i>编辑</td>
                 <td>2018/06/07</td>
             </tr>
+            <tr>
+                <td>图6-8 第一次更新、第二次更新</td>
+                <td>一 -> 二， 二 -> 一</td>
+                <td>第110页</td>
+                <td>排印错误</td>
+                <td>倪枫</td>
+                <td>2018/06/13</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
