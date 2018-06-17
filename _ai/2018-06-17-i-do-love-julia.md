@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I do love Julia"
-date:   2018-05-23
+date:   2018-06-17
 excerpt: "Fluent interface in Julia."
 image: "/images/julialang.svg"
 ---
