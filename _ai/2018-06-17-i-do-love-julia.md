@@ -79,13 +79,9 @@ And if it is okay, how about not calling it `dot`, but reuse the term `do`?
 For example,
 
 ```julia
-function love(a, b)
-    print("$a loves $b")
-end
+love(a, b) = print("$a love $b")
 
-I = "zz"
-
-I do love("everyone")
+"I" do love("Julia")
 ```
 
 The last line would translate into `love(I, "everyone")`.
@@ -108,3 +104,44 @@ consider this example:
 ```julia
 [1:5;] .do (x->x^2)() do sum() do inv()
 ```
+
+## Implementation
+
+### Try 1: Macro
+
+First I try to implement the idea using macros.
+However, the first trouble is, the proposed `do` syntax is invalid.
+They cannot pass the Julia parser, so the codes are blocked by errors before they arrived to macros.
+Okay, how about use another word, say `dot`?
+
+```julia
+function rearrange(expr)
+    if length(expr) > 2 && expr[2] == :dot
+        insert!(expr[3].args, 2, expr[1])
+        return rearrange(expr[3:end])
+    else
+        return expr
+    end
+end
+
+macro dot(something...)
+    esc(rearrange(something)[1])
+end
+```
+
+Then the following code works as expected.
+
+```julia
+love(a, b) = print("$a love $b")
+
+@dot "I" dot love("Julia")
+
+@dot [1:5;] dot (x->x.^2)() dot sum() dot inv()
+```
+
+This is not satisfying because of the use of `dot`, and because the use of `@dot`.
+To get rid of these annoyances, we need hack the Julia parser.
+
+### Try 2: Parser
+
+Let's do something to the parser.
