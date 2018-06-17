@@ -72,10 +72,10 @@ This is equivalent to `map(x -> x^2, 1:10)`.
 When you use `do`, it assumes that the first argument of the previous function accepts a function.
 And the definition of that function is defined right after the keyword `do`.
 
-How about we use another word, say `dot`, and when `dot` appears,
+How about we use another word, say `dont`, and when `dont` appears,
 it assumes the function after it takes an object as the first argument,
 and feed the output of previous functions to it?
-And if it is okay, how about not calling it `dot`, but reuse the term `do`?
+And if it is okay, how about not calling it `dont`, but reuse the term `do`?
 For example,
 
 ```julia
@@ -112,11 +112,11 @@ consider this example:
 First I try to implement the idea using macros.
 However, the first trouble is, the proposed `do` syntax is invalid.
 They cannot pass the Julia parser, so the codes are blocked by errors before they arrived to macros.
-Okay, how about use another word, say `dot`?
+Okay, how about use another word, say `dont`?
 
 ```julia
 function rearrange(expr)
-    if length(expr) > 2 && expr[2] == :dot
+    if length(expr) > 2 && expr[2] == :dont
         insert!(expr[3].args, 2, expr[1])
         return rearrange(expr[3:end])
     else
@@ -124,7 +124,7 @@ function rearrange(expr)
     end
 end
 
-macro dot(something...)
+macro dont(something...)
     esc(rearrange(something)[1])
 end
 ```
@@ -134,12 +134,12 @@ Then the following code works as expected.
 ```julia
 love(a, b) = print("$a love $b")
 
-@dot "I" dot love("Julia")
+@dont "I" dont love("Julia")
 
-@dot [1:5;] dot (x->x.^2)() dot sum() dot inv()
+@dont [1:5;] dont (x->x.^2)() dont sum() dont inv()
 ```
 
-This is not satisfying because of the use of `dot`, and because the use of `@dot`.
+This is not satisfying because of the use of `dont`, and because the use of `@dont`.
 To get rid of these annoyances, we need hack the Julia parser.
 
 ### Try 2: Parser
