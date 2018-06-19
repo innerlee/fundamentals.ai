@@ -57,17 +57,17 @@ Some functions are used here:
         <h3>`with-bindings`</h3>
         This function comes from the femtoLisp standard library.
 
-```scheme
-(define-macro (with-bindings binds . body)
-  (let ((vars (map car binds))
-	(vals (map cadr binds))
-	(olds (map (lambda (x) (gensym)) binds)))
-    `(let ,(map list olds vars)
-       ,@(map (lambda (v val) `(set! ,v ,val)) vars vals)
-       (unwind-protect
-	(begin ,@body)
-	(begin ,@(map (lambda (v old) `(set! ,v ,old)) vars olds))))))
-```
+        ```scheme
+        (define-macro (with-bindings binds . body)
+        (let ((vars (map car binds))
+            (vals (map cadr binds))
+            (olds (map (lambda (x) (gensym)) binds)))
+            `(let ,(map list olds vars)
+            ,@(map (lambda (v val) `(set! ,v ,val)) vars vals)
+            (unwind-protect
+            (begin ,@body)
+            (begin ,@(map (lambda (v old) `(set! ,v ,old)) vars olds))))))
+        ```
 
         To understand it, we have to figure out what
         <ul>
