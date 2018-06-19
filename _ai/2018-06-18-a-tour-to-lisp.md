@@ -52,56 +52,49 @@ The `do`-related function is,
 
 Some functions are used here:
 
-<div class="row">
-    <div class="6u 12u$(small)">
-        <h3>`with-bindings`</h3>
-        This function comes from the femtoLisp standard library.
+### `with-bindings`
+This function comes from the femtoLisp standard library.
 
-        ```scheme
-        (define-macro (with-bindings binds . body)
-        (let ((vars (map car binds))
-            (vals (map cadr binds))
-            (olds (map (lambda (x) (gensym)) binds)))
-            `(let ,(map list olds vars)
-            ,@(map (lambda (v val) `(set! ,v ,val)) vars vals)
-            (unwind-protect
-            (begin ,@body)
-            (begin ,@(map (lambda (v old) `(set! ,v ,old)) vars olds))))))
-        ```
+```scheme
+(define-macro (with-bindings binds . body)
+(let ((vars (map car binds))
+    (vals (map cadr binds))
+    (olds (map (lambda (x) (gensym)) binds)))
+    `(let ,(map list olds vars)
+    ,@(map (lambda (v val) `(set! ,v ,val)) vars vals)
+    (unwind-protect
+    (begin ,@body)
+    (begin ,@(map (lambda (v old) `(set! ,v ,old)) vars olds))))))
+```
 
-        To understand it, we have to figure out what
-        <ul>
-            <li>`define-macro`</li>
-            <li>the `` ` `` notation in `` `(blabla) ``: This is the
-            </li>
-            <li>the `` , `` notation in `` ,(blabla) `` and `` ,v ``</li>
-            <li>the `` ,@ `` notation in `` ,@(blabla) ``</li>
-        </ul>
-        are talking about.
-        From [documentation](http://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/Lists.html#Lists)
+To understand it, we have to figure out what
+<ul>
+    <li>`define-macro`</li>
+    <li>the `` ` `` notation in `` `(blabla) ``: This is the
+    </li>
+    <li>the `` , `` notation in `` ,(blabla) `` and `` ,v ``</li>
+    <li>the `` ,@ `` notation in `` ,@(blabla) ``</li>
+</ul>
+are talking about.
+From [documentation](http://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/Lists.html#Lists)
 
-        <blockquote>the forms `` 'datum ``,`` `datum ``,`` ,datumv, and `` ,@datum `` denote two-element lists whose first elements are the symbols quote, quasiquote, unquote, and unquote-splicing, respectively. The second element in each case is datum.</blockquote>
-    </div>
+<blockquote>the forms `` 'datum ``,`` `datum ``,`` ,datumv, and `` ,@datum `` denote two-element lists whose first elements are the symbols quote, quasiquote, unquote, and unquote-splicing, respectively. The second element in each case is datum.</blockquote>
 
-    <div class="6u$ 12u$(small)">
-        <h3>`expect-end-current-line`</h3>
-        This is a little bit strange. A number?
+### `expect-end-current-line`
+This is a little bit strange. A number?
 
 ```scheme
 (define expect-end-current-line 0)
 ```
 
-        <h3>`input-port-line`</h3>
-        It is a builtin function which recieves a port and returns the line number.
-        Note that `port` is the I/O stream for scheme.
+### `input-port-line`
+It is a builtin function which recieves a port and returns the line number.
+Note that `port` is the I/O stream for scheme.
 
-        <h3>`ts:port`</h3>
-        Note: `aref` is the common-lisp name for `vector-ref`.
-        <i>i.e.</i>, get the $i$-th element of a vector.
+### `ts:port`
+Note: `aref` is the common-lisp name for `vector-ref`.
+<i>i.e.</i>, get the $i$-th element of a vector.
 
 ```scheme
         (define-macro (ts:port s) `(aref ,s 1))
 ```
-
-    </div>
-</div>
