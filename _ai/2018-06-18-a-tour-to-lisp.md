@@ -70,8 +70,7 @@ This function comes from the femtoLisp standard library.
 To understand it, we have to figure out what
 
 * `define-macro`
-* the `` ` `` notation in `` `(blabla) ``: This is the
-
+* the `` ` `` notation in `` `(blabla) ``
 * the `` , `` notation in `` ,(blabla) `` and `` ,v ``
 * the `` ,@ `` notation in `` ,@(blabla) ``
 
