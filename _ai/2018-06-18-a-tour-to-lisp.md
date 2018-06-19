@@ -87,7 +87,7 @@ This is a little bit strange. A number?
 ```
 
 ### `input-port-line`
-It is a builtin function which recieves a port and returns the line number.
+It is a built-in function which receives a port and returns the line number.
 Note that `port` is the I/O stream for scheme.
 
 ### `ts:port`
