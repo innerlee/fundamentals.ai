@@ -3,7 +3,7 @@ layout: post
 title:  "Aguado Study in E"
 date:   2018-06-19
 excerpt: "The road to tremolo."
-image: "/images/study.png"
+image: "/images/study.jpg"
 ---
 
 Tremolo is the most beautiful technique in classical guitar.
