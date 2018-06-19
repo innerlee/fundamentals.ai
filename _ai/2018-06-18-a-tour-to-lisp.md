@@ -68,13 +68,13 @@ This function comes from the femtoLisp standard library.
 ```
 
 To understand it, we have to figure out what
-<ul>
-    <li>`define-macro`</li>
-    <li>the `` ` `` notation in `` `(blabla) ``: This is the
-    </li>
-    <li>the `` , `` notation in `` ,(blabla) `` and `` ,v ``</li>
-    <li>the `` ,@ `` notation in `` ,@(blabla) ``</li>
-</ul>
+
+* `define-macro`
+* the `` ` `` notation in `` `(blabla) ``: This is the
+
+* the `` , `` notation in `` ,(blabla) `` and `` ,v ``
+* the `` ,@ `` notation in `` ,@(blabla) ``
+
 are talking about.
 From [documentation](http://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/Lists.html#Lists)
 
