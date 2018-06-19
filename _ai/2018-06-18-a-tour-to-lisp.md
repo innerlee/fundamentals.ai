@@ -77,7 +77,7 @@ To understand it, we have to figure out what
 are talking about.
 From [documentation](http://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/Lists.html#Lists)
 
-<blockquote>the forms `` 'datum ``,`` `datum ``,`` ,datumv, and `` ,@datum `` denote two-element lists whose first elements are the symbols quote, quasiquote, unquote, and unquote-splicing, respectively. The second element in each case is datum.</blockquote>
+<blockquote>the forms 'datum `datum ,datum, and ,@datum denote two-element lists whose first elements are the symbols quote, quasiquote, unquote, and unquote-splicing, respectively. The second element in each case is datum.</blockquote>
 
 ### `expect-end-current-line`
 This is a little bit strange. A number?
