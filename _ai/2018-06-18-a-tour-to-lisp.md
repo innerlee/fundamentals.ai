@@ -97,3 +97,84 @@ Note: `aref` is the common-lisp name for `vector-ref`.
 ```scheme
         (define-macro (ts:port s) `(aref ,s 1))
 ```
+
+### `without-whitespace-newline`
+
+```scheme
+; treat newline like ordinary whitespace instead of as a potential separator
+(define whitespace-newline #f)
+
+(define-macro (with-whitespace-newline . body)
+  `(with-bindings ((whitespace-newline #t))
+                  ,@body))
+
+(define-macro (without-whitespace-newline . body)
+  `(with-bindings ((whitespace-newline #f))
+                  ,@body))
+```
+
+### `memv`
+
+`memv object list` returns the first pair of `list` whose `car` is `object`.
+Returns `#f` if not found.
+
+### `#\newline`
+
+Characters are written using the notation `#\character` or `#\character-name`.
+For example: `#\newline` is the newline character.
+
+### `parse-comma-separated`
+
+```scheme
+(define (parse-comma-separated s what)
+  (let loop ((exprs '()))
+    (let ((r (what s)))
+      (case (peek-token s)
+        ((#\,)
+         (take-token s)
+         (loop (cons r exprs)))
+        (else   (reverse! (cons r exprs)))))))
+```
+
+### `parse-range`
+
+```scheme
+;; parse ranges and postfix ...
+;; colon is strange; 3 arguments with 2 colons yields one call:
+;; 1:2   => (call : 1 2)
+;; 1:2:3 => (call : 1 2 3)
+(define (parse-range s)
+  (let loop ((ex     (parse-expr s))
+             (first? #t))
+    (let* ((t   (peek-token s))
+           (spc (ts:space? s)))
+      (cond ((and first? (eq? t '|..|))
+             (take-token s)
+             `(call ,t ,ex ,(parse-expr s)))
+            ((and range-colon-enabled (eq? t ':))
+             (take-token s)
+             (if (and space-sensitive spc
+                      (or (peek-token s) #t) (not (ts:space? s)))
+                 ;; "a :b" in space sensitive mode
+                 (begin (ts:put-back! s ': spc)
+                        ex)
+                 (let ((argument
+                        (cond ((closing-token? (peek-token s))
+                               (error  (string "missing last argument in \""
+                                               (deparse ex) ":\" range expression ")))
+                              ((newline? (peek-token s))
+                               (error "line break in \":\" expression"))
+                              (else
+                               (parse-expr s)))))
+                   (if (and (not (ts:space? s))
+                            (or (eq? argument '<) (eq? argument '>)))
+                       (error (string "\":" argument "\" found instead of \""
+                                      argument ":\"")))
+                   (if first?
+                       (loop (list 'call t ex argument) #f)
+                       (loop (append ex (list argument)) #t)))))
+            ((eq? t '...)
+             (take-token s)
+             (list '... ex))
+            (else ex)))))
+```
