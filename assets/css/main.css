@@ -2411,6 +2411,25 @@
 			display: none;
 		}
 
+	.icon2 {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.icon2:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: academicons;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon2 > .label {
+			display: none;
+		}
+
 /* Image */
 
 	.image {
@@ -2564,7 +2583,25 @@
 					font-size: 1.25rem;
 				}
 
+				ul.icons li .icon2:before {
+					width: 2.25rem;
+					height: 2.25rem;
+					line-height: 2.25rem;
+					display: inline-block;
+					text-align: center;
+					border-radius: 100%;
+					font-size: 1.25rem;
+				}
+
 			ul.icons.alt li .icon:before {
+				-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+				-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+				-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+				transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+				font-size: 1rem;
+			}
+
+			ul.icons.alt li .icon2:before {
 				-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 				-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 				-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
@@ -2665,6 +2702,10 @@
 								margin-left: -2rem;
 							}
 
+							ul.actions li > *.icon2:before {
+								margin-left: -2rem;
+							}
+
 					ul.actions.small li {
 						padding: 0.5rem 0 0 0;
 					}
@@ -2702,6 +2743,18 @@
 	}
 
 	ul.icons.alt li a.icon:hover:before {
+		box-shadow: inset 0 0 0 2px #18bfef;
+	}
+
+	ul.icons li a.icon2:hover:before {
+		color: #18bfef;
+	}
+
+	ul.icons.alt li .icon2:before {
+		box-shadow: inset 0 0 0 2px #eeeeee;
+	}
+
+	ul.icons.alt li a.icon2:hover:before {
 		box-shadow: inset 0 0 0 2px #18bfef;
 	}
 
@@ -3450,6 +3503,18 @@
 			box-shadow: inset 0 0 0 2px #18bfef;
 		}
 
+		#nav ul.icons li a.icon2:hover:before {
+			color: #18bfef;
+		}
+
+		#nav ul.icons.alt li .icon2:before {
+			box-shadow: inset 0 0 0 2px #ffffff;
+		}
+
+		#nav ul.icons.alt li a.icon2:hover:before {
+			box-shadow: inset 0 0 0 2px #18bfef;
+		}
+
 		#nav input, #nav select, #nav textarea {
 			color: #ffffff;
 		}
@@ -3930,6 +3995,18 @@
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
+			box-shadow: inset 0 0 0 2px #18bfef;
+		}
+
+		#footer ul.icons li a.icon2:hover:before {
+			color: #18bfef;
+		}
+
+		#footer ul.icons.alt li .icon2:before {
+			box-shadow: inset 0 0 0 2px #e2e2e2;
+		}
+
+		#footer ul.icons.alt li a.icon2:hover:before {
 			box-shadow: inset 0 0 0 2px #18bfef;
 		}
 

@@ -1,9 +1,27 @@
 <ul class="links">
   <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
-  <li class="{% if page.url contains '/life/' %} active {% endif %}"><a href="{{ "/life/" | absolute_url }}">Life</a></li>
+  <!-- <li class="{% if page.url contains '/life/' %} active {% endif %}"><a href="{{ "/life/" | absolute_url }}">Life</a></li> -->
   <li class="{% if page.url contains '/ai/' %} active {% endif %}"><a href="{{ "/ai/" | absolute_url }}">AI</a></li>
   <li class="{% if page.url contains '/math/' %} active {% endif %}"><a href="{{ "/math/" | absolute_url }}">Math</a></li>
   <li class="{% if page.url contains '/music/' %} active {% endif %}"><a href="{{ "/music/" | absolute_url }}">Music</a></li>
   <li class="{% if page.url contains '/sport/' %} active {% endif %}"><a href="{{ "/sport/" | absolute_url }}">Sport</a></li>
-  <li class="{% if page.url contains '/art/' %} active {% endif %}"><a href="{{ "/art/" | absolute_url }}">Art</a></li>
+  <!-- <li class="{% if page.url contains '/art/' %} active {% endif %}"><a href="{{ "/art/" | absolute_url }}">Art</a></li> -->
+</ul>
+
+<ul class="icons">
+    <li>
+        <a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow">
+            <span class="label">GitHub</span>
+        </a>
+    </li>
+    <li>
+      <a href="https://scholar.google.com.hk/citations?user=YIaflDkAAAAJ&hl=en" class="icon2 ai-google-scholar" rel="nofollow">
+        <span class="label">Google Scholar</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/%E6%B2%BB%E4%B8%AD-%E6%9D%8E-b14134a5/" class="icon fa-linkedin" rel="nofollow">
+          <span class="label">Linked-In</span>
+      </a>
+    </li>
 </ul>

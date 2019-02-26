@@ -28,7 +28,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- Intro -->
         <div id="intro">
             <h1>{{site.title}}</h1>
-            <h2>Math, Music, Sport, Art and AI</h2>
+            <h2>Math, Music, Sport and AI</h2>
             <p>Life is a boat on an ocean
                 <br /> Let's sail together</p>
             <ul class="actions">
@@ -40,7 +40,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <!-- Header -->
         <header id="header">
-            <a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+            <a href="/" class="logo">{{site.title}}</a>
             <!-- <h3>Zhizhong Li</h3> -->
         </header>
 
@@ -49,18 +49,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             {% include nav.html %}
 
-            <ul class="icons">
-                <li>
-                    <a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow">
-                        <span class="label">GitHub</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://scholar.google.com.hk/citations?user=YIaflDkAAAAJ&hl=en" class="icon fa-github" rel="nofollow">
-                        <span class="label">Google Scholar</span>
-                    </a>
-                </li>
-            </ul>
         </nav>
 
         <!-- Main -->
@@ -69,7 +57,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <article class="post featured">
                 <header class="major">
                     <h2>
-                        <a href="#">Zhizhong Li</a>
+                        <a>Zhizhong Li</a>
                     </h2>
                     <p>
                         I am expected to graduate this Summer, and am seeking for job oppertunities now.
@@ -132,7 +120,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </article>
                 {% break %}
                 {% endfor %}
-                {% for post in site.art reversed %} {% assign mod3 = forloop.index | modulo: 3 %}
+                <!-- {% for post in site.art reversed %} {% assign mod3 = forloop.index | modulo: 3 %}
                 <article>
                     <header>
                         <span class="date">{{ post.date | date_to_string }}</span>
@@ -151,8 +139,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </ul>
                 </article>
                 {% break %}
-                {% endfor %}
-                {% for post in site.life reversed %} {% assign mod3 = forloop.index | modulo: 3 %}
+                {% endfor %} -->
+                <!-- {% for post in site.life reversed %} {% assign mod3 = forloop.index | modulo: 3 %}
                 <article>
                     <header>
                         <span class="date">{{ post.date | date_to_string }}</span>
@@ -171,7 +159,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </ul>
                 </article>
                 {% break %}
-                {% endfor %}
+                {% endfor %} -->
                 {% for post in site.math reversed %} {% assign mod3 = forloop.index | modulo: 3 %}
                 <article>
                     <header>
