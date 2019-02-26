@@ -19,12 +19,12 @@ sitemap:
 <p>
     Some terminologies are lingering in my head because I have not understood them.
 </p>
-
-* Atiyah-Singer index theorem
-* Riemann-Roch theorem
-* Gromov-Witten invariant
-* Mirror symmetry
-
+<p>
+    * Atiyah-Singer index theorem
+    * Riemann-Roch theorem
+    * Gromov-Witten invariant
+    * Mirror symmetry
+</p>
 <p>
     When to kill those?
     That is a great question...
