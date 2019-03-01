@@ -9,7 +9,7 @@ sitemap:
 ---
 <header class="major">
     <h2>
-        <a href="#">On Math</a>
+        <a>On Math</a>
     </h2>
     <p>
     If there is one important concept in mathematics, then it is symmetry.

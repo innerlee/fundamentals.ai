@@ -9,7 +9,7 @@ sitemap:
 ---
 <header class="major">
 <h2>
-    <a href="#">On Music</a>
+    <a>On Music</a>
 </h2>
 <p>
 For music, I've always being an <em>outsider</em>.
