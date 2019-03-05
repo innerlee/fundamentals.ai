@@ -16,19 +16,3 @@ sitemap:
     If there are two important objects in mathematics, then they are polynomial and matrix.
     </p>
 </header>
-<p>
-    Some terminologies are lingering in my head because I have not understood them.
-</p>
-
-<p>
-<ul style="text-align:left">
-    <li>Atiyah-Singer index theorem</li>
-    <li>Riemann-Roch theorem</li>
-    <li>Gromov-Witten invariant</li>
-    <li>Mirror symmetry</li>
-</ul>
-</p>
-<p>
-    When to kill those?
-    That is a great question...
-</p>
