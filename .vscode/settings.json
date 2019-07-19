@@ -10,6 +10,7 @@
         "CVPR",
         "Convolutional",
         "Dahua",
+        "Dribbble",
         "Huahan",
         "IJCAI",
         "ISIT",
@@ -35,6 +36,7 @@
         "polynet",
         "repo",
         "scrolly",
-        "starcraft"
+        "starcraft",
+        "xsmall"
     ]
 }
